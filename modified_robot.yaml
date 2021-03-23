@@ -1,0 +1,16 @@
+tasks:
+  Minimal task:
+    robotTaskName: Minimal task
+  Another task:
+    robotTaskName: Another task
+  Yet Another task:
+    robotTaskName: Yet Another task
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+- .
+PYTHONPATH:
+- .
+ignoreFiles:
+- .gitignore
